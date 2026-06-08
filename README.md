@@ -1,15 +1,17 @@
 Football API
-Description
 
+Description
+-----------
 API REST développée avec Spring Boot permettant la gestion d'équipes de football et de leurs joueurs.
 
 Fonctionnalités :
-
+------------------
 - Création d'une équipe avec ou sans joueurs associés.
 - Consultation des équipes avec pagination.
 - Tri des équipes par nom, acronyme et budget.
 
 Technologies
+-------------
 - Java 17
 - Spring Boot 3.5
 - Spring Data JPA / Hibernate
@@ -18,12 +20,14 @@ Technologies
 - JUnit 5
 
 Choix techniques
+----------------
 H2 a été utilisée afin de faciliter l'exécution du projet sans installation de base de données externe.
 Spring Data JPA simplifie l'accès aux données et la gestion de la persistance.
 Les DTO permettent de découpler l'API du modèle de persistance.
 Bean Validation est utilisée pour valider les données entrantes.
 
 Lancement du projet
+------------------
 
 Prérequis :
 
