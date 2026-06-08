@@ -34,16 +34,6 @@ Démarrage :
 
 mvn spring-boot:run
 
-L'application est accessible sur :
-
-http://localhost:8080
-
-Tests
-
-Exécution des tests :
-
-mvn test
-
 Endpoints
 
 Création d'une équipe :
