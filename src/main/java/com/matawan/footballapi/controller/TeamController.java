@@ -10,6 +10,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * REST controller exposing football team endpoints.
+ */
 @RestController
 @RequestMapping("/api/teams")
 @RequiredArgsConstructor

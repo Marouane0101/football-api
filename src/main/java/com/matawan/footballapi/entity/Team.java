@@ -7,6 +7,9 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * football Team entity.
+ */
 @Entity
 @Table(name = "teams")
 @Getter

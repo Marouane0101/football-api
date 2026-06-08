@@ -3,6 +3,9 @@ package com.matawan.footballapi.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+/**
+ * Player entity.
+ */
 @Entity
 @Table(name = "players")
 @Getter
